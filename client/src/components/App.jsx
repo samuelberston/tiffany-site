@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Instagram from './Instagram.jsx';
+import About from './About.jsx';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -12,6 +15,8 @@ class App extends React.Component {
     return (
       <div>
         App
+        <About />
+        <Instagram />
       </div>
     );
   }
